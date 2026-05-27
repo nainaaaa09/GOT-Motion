@@ -1,0 +1,61 @@
+
+@font-face {
+  font-family: 'story';
+  src: url('./assets/story.ttf') format('truetype');
+  font-weight:normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'got';
+  src: url('./assets/got.ttf') format('truetype');
+  font-weight:normal;
+  font-style: normal;
+}
+
+*{
+    margin:0;
+    padding:0;
+   
+   font-size:'0px';
+   
+   
+   
+
+}
+.maintext {
+    font-family: 'story', serif;
+
+    color: rgb(215, 220, 222);  /* cool off-white */
+
+    text-shadow:
+        0 0 20px rgba(0,0,0,0.9),
+        0 0 40px rgba(0,0,0,0.6);
+
+    letter-spacing: 5px;
+  
+}
+.main2text {
+    font-family: 'got', serif;
+
+    color: rgb(247, 247, 247);  /* cool off-white */
+
+    text-shadow:
+        0 0 0px rgba(0,0,0,0.9),
+        0 0 40px rgba(0,0,0,0.6);
+
+    letter-spacing: 2px;
+  
+}
+.main3text {
+    font-family: 'story', serif;
+
+    color: rgba(247, 247, 247, 0.868);  /* cool off-white */
+
+    text-shadow:
+        0 0 0px rgba(0,0,0,0.9),
+        0 0 40px rgba(0,0,0,0.6);
+
+    letter-spacing: 5px;
+  
+}
