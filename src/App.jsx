@@ -7,7 +7,7 @@ import goth from "./assets/blackfog.png";
 
 import gotTheme from "./assets/got-theme.mp3";
 
-import "./app.css";
+import "./App.css";
 
 import Starks from "./components/Starks";
 import Houses from "./components/Houses";
